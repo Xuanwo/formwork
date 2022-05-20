@@ -1,11 +1,11 @@
-# _name &emsp; [![Build Status]][actions] [![Latest Version]][crates.io]
+# formwork &emsp; [![Build Status]][actions] [![Latest Version]][crates.io]
 
-[Build Status]: https://img.shields.io/github/workflow/status/_author/_name/CI/main
-[actions]: https://github.com/_author/_name/actions?query=branch%3Amain
-[Latest Version]: https://img.shields.io/crates/v/_name.svg
-[crates.io]: https://crates.io/crates/_name
+[Build Status]: https://img.shields.io/github/workflow/status/Xuanwo/formwork/CI/main
+[actions]: https://github.com/Xuanwo/formwork/actions?query=branch%3Amain
+[Latest Version]: https://img.shields.io/crates/v/formwork.svg
+[crates.io]: https://crates.io/crates/formwork
 
-This is my rust template.
+`formwork` is my favourite rust template.
 
 > Please replace with valid value.
 
@@ -13,9 +13,9 @@ This is my rust template.
 
 Replace all placeholder with valid values, for example:
 
-- `_author` => `Xuanwo`
-- `_email` => `github@xuanwo.io`
-- `_name` => crate name
+- `Xuanwo` => github login
+- `github@xuanwo.io` => email
+- `formwork` => crate name
 
 ```rust
 // Replace with quick Start here
@@ -27,7 +27,7 @@ Check out the [CONTRIBUTING.md](./CONTRIBUTING.md) guide for more details on get
 
 ## Getting help
 
-Submit [issues](https://github.com/_author/_name/issues/new/choose) for bug report or asking questions in [discussion](https://github.com/_author/_name/discussions/new?category=q-a).
+Submit [issues](https://github.com/Xuanwo/formwork/issues/new/choose) for bug report or asking questions in [discussion](https://github.com/Xuanwo/formwork/discussions/new?category=q-a).
 
 #### License
 

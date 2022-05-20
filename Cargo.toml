@@ -1,12 +1,12 @@
 [package]
-authors = ["_author <_email>>"]
+authors = ["Xuanwo <github@xuanwo.io>>"]
 categories = ["command-line-utilities"]
 description = "Replace with description"
-documentation = "https://docs.rs/_name"
-repository = "https://github.com/_author/_name"
+documentation = "https://docs.rs/formwork"
+repository = "https://github.com/Xuanwo/formwork"
 edition = "2021"
 license = "Apache-2.0"
-name = "_name"
+name = "formwork"
 version = "0.0.1"
 
 [dependencies]
