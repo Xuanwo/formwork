@@ -1,0 +1,12 @@
+[package]
+authors = ["_author <_email>>"]
+categories = ["command-line-utilities"]
+description = "Replace with description"
+documentation = "https://docs.rs/_name"
+repository = "https://github.com/_author/_name"
+edition = "2021"
+license = "Apache-2.0"
+name = "_name"
+version = "0.0.1"
+
+[dependencies]
