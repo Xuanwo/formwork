@@ -48,7 +48,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Test
-        uses: actions-rs/cargo@v1
         run: cargo test --all-targets --workspace
         env:
           RUST_LOG: DEBUG
