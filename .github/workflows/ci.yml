@@ -17,9 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: ./.github/actions/check
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Format
+        run: cargo fmt --all -- --check
+
+      - name: Clippy
+        run: cargo clippy --all-targets --workspace -- -D warnings
 
   build:
     runs-on: ${{ matrix.os }}
@@ -32,9 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Build
-        uses: actions-rs/cargo@v1
-        with:
-          command: build
+        run: cargo build
 
   unit:
     runs-on: ${{ matrix.os }}
@@ -47,10 +48,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Test
-        uses: actions-rs/cargo@v1
-        with:
-          command: test
-          args: -- --nocapture
+        run: cargo test --all-targets --workspace
         env:
           RUST_LOG: DEBUG
           RUST_BACKTRACE: full

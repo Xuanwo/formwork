@@ -1,6 +1,6 @@
 # formwork &emsp; [![Build Status]][actions] [![Latest Version]][crates.io]
 
-[Build Status]: https://img.shields.io/github/workflow/status/Xuanwo/formwork/CI/main
+[Build Status]: https://img.shields.io/github/actions/workflow/status/Xuanwo/formwork/ci.yml
 [actions]: https://github.com/Xuanwo/formwork/actions?query=branch%3Amain
 [Latest Version]: https://img.shields.io/crates/v/formwork.svg
 [crates.io]: https://crates.io/crates/formwork
