@@ -16,7 +16,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Format
         run: cargo fmt --all -- --check
@@ -33,7 +33,7 @@ jobs:
           - macos-11
           - windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Build
         run: cargo build
 
@@ -46,7 +46,7 @@ jobs:
           - macos-11
           - windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Test
         run: cargo test --all-targets --workspace
         env:
